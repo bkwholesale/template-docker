@@ -1,6 +1,6 @@
 ---
 additional:
-- template-dockerhub-release
+- spider
 
 files:
 - '!README.md'
