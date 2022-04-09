@@ -1,8 +1,7 @@
 ---
 name: Sync Fork
 
-on: # yamllint disable-line rule:truthy
-  pull-request:
+on: [pull_request] # yamllint disable-line rule:truthy
 
 jobs:
   sync:
