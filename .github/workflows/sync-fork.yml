@@ -11,7 +11,7 @@ jobs:
     steps:
     - uses: tgymnich/fork-sync@v1.6
       with:
-        owner: hutchic
+        owner: bkwholesale
         base: main
         head: main
         pr_title: 'chore(sync): sync from upstream fork'
