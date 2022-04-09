@@ -7,3 +7,4 @@ files:
 - '!.secrets.baseline'
 - '!.github/template-sync.yml'
 - '!Dockerfile'
+- '!'
