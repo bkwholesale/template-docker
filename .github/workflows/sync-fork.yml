@@ -14,6 +14,7 @@ jobs:
         owner: bkwholesale
         base: main
         head: main
+        merge_method: rebase
         pr_title: 'chore(sync): sync from upstream fork'
         token: ${{ secrets.GH_TOKEN }}
         auto_approve: false
