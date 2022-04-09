@@ -14,10 +14,10 @@ jobs:
     steps:
     - uses: tgymnich/fork-sync@v1.6
       with:
-        owner: hutchic
+        owner: bkwholesale
         base: main
         head: main
+        merge_method: rebase
         pr_title: 'chore(sync): sync from upstream fork'
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        personal_token: ${{ secrets.GH_TOKEN }}
+        token: ${{ secrets.GH_TOKEN }}
         auto_approve: false
